@@ -1,0 +1,15 @@
+author: Matt4499
+main: com.github.matt4499.mNetwork.Main
+api-version: 1.16
+name: mNetwork
+version: 0.1
+description: This is our custom coded plugin
+website: mNetwork.dev
+
+commands:
+   cc:
+      description: Clears the chat. Staff only.
+      usage: /cc
+   mm:
+      description: Staff only mode.
+      usage: /mm
