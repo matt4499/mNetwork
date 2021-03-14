@@ -2,7 +2,8 @@
 Minecraft staff plugin created for the now-shutdown mNetwork
 Everything was logged into a MySQL database, so you'll have to fill in your information and compile the jar yourself.
 
-```Commands:
+```
+Commands:
   clear chat (/cc)
     permission: staff.clearchat
   maintenance mode (/mm)
@@ -20,6 +21,7 @@ Events:
       player - Who ran command
       isCancelled - If the command was cancelled (due to no perms, etc.)
       setCancelled(boolean) - Allow or deny the command 
-      message - Message that was said ```
+      message - Message that was said 
+```
     
       
