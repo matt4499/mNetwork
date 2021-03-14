@@ -15,11 +15,11 @@ public class SQL {
   public static Connection connection;
 
   public static Boolean init() {
-    host = "game-db-ca-1.iceline.host";
+    host = "host name";
     port = "3306";
-    database = "s11731_logs";
-    username = "u11731_oDgDspODaO";
-    password = "^11HvlysP.^NthRq5.IEJd6f";
+    database = "db name";
+    username = "username here";
+    password = "password here";
     try {
       connection = openConnection();
       Statement statement = openConnection().createStatement();
